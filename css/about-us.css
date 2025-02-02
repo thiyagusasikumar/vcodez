@@ -1,13 +1,40 @@
 .section1 {
-  background-image: url("../img/students-celebrating-successfully-finished-project-min-scaled.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh; 
-  position: relative;
-  overflow: hidden; 
-  display: flex;
+    background-image: url("../img/students-celebrating-successfully-finished-project-min-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+  }
+.section1 h1 {
+    margin-top: 6rem;
+    margin-bottom: 20px;
+    z-index: 999;
+    font-size: 3.3rem;
 }
+.section1 p {
+    z-index: 999;
+    font-size: 13px;
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Apply transparent black overlay */
+    filter: blur(8px); /* Apply the blur effect */
+    z-index: 0; /* Place it behind text */
+  }
+  
 .custom-shape-divider-bottom-1738505485 {
     position: absolute;
     bottom: 0;
@@ -15,6 +42,14 @@
     width: 100%;
     overflow: hidden;
     line-height: 0;
+}
+
+.section2 button{
+    background-color: #21AB49;
+    font-size: 14px;
+}
+.section2 h1{
+    font-size: 4rem
 }
 
 
