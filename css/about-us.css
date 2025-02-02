@@ -1,4 +1,4 @@
-.sec-1 {
+.section1 {
   background-image: url("../img/students-celebrating-successfully-finished-project-min-scaled.jpg");
   background-size: cover;
   background-position: center;
@@ -6,5 +6,15 @@
   height: 100vh; 
   position: relative;
   overflow: hidden; 
+  display: flex;
 }
+.custom-shape-divider-bottom-1738505485 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
 
