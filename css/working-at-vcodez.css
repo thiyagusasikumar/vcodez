@@ -68,7 +68,7 @@
   font-style: normal;
 }
 .padding_join {
-  padding: 70px 0px 70px 0px;
+  padding: 70px 0px 15px 0px;
 }
 .bg-overlay {
   position: absolute;
@@ -109,4 +109,8 @@
 .working_1 {
   font-family: "Roboto", serif;
   font-size: 14px;
+}
+.work_image {
+  border-bottom-right-radius: 20%;
+  margin-left: 5px;
 }
