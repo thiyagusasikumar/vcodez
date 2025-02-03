@@ -3,10 +3,15 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 90vh;
   position: relative;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  color: white;
 }
 .custom-shape-divider-bottom-1738505485 {
   position: absolute;
@@ -55,7 +60,7 @@
   color: white;
 }
 .header_join {
-  font-size: 37px;
+  font-size: 40px;
   font-weight: bolder;
   font-family: "Roboto", serif;
   font-optical-sizing: auto;
@@ -64,4 +69,44 @@
 }
 .padding_join {
   padding: 70px 0px 70px 0px;
+}
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Apply transparent black overlay */
+  filter: blur(8px); /* Apply the blur effect */
+  z-index: 0; /* Place it behind text */
+}
+.custom-shape-divider-bottom-1738505485 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.section1 h1 {
+  margin-top: 6rem;
+  margin-bottom: 20px;
+  z-index: 999;
+  font-size: 3.3rem;
+}
+.section1 p {
+  z-index: 999;
+  font-size: 13px;
+  margin-top: 1rem;
+}
+
+.working {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Roboto", serif;
+  margin: 5px 0px 17px 0px;
+}
+.working_1 {
+  font-family: "Roboto", serif;
+  font-size: 14px;
 }
