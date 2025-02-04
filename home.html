@@ -10,6 +10,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <!-- slick -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+  <!-- fontawsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
   <title>Home</title>
 </head>
 
@@ -17,10 +23,8 @@
 
   <nav class="navbar navbar-expand-lg sticky-top bg-white">
     <div class="container-fluid">
-      <!-- Logo -->
       <img src="img/vcodez.webp" alt="Logo">
 
-      <!-- Navbar items (collapsed on small screens) -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-5 my-0">
           <li class="nav-item px-3 fb-500">
@@ -48,10 +52,7 @@
 
       </div>
 
-      <!-- "Set Touch" button aligned to the right -->
       <button class="btn btn-primary ms-auto d-none d-lg-block rounded-pill fw-bold letter-spacing ">GET TOUCH</button>
-
-      <!-- Hamburger button for mobile -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -79,12 +80,85 @@
       </div>
     </div>
   </section>
-  
+
+  <section class="text-center">
+    <h6 class="text-uppercase text-success letter-spacing">What do we offer?</h6>
+    <h1 class="fw-bold letter-spacing my-2 py-1">Services</h1>
+    <p class="my-2 ">Innovative software solutions must not only meet current needs but also anticipate future
+      challenges</p>
+    <span class="line my-1"></span>
+
+    <div class="container my-5">
+      <div class="multiple-items overflow-hidden mx-5 py-4">
+        <div class="border">
+          <div class="my-4 py-2 px-4">
+            <div style="background-color: #fe9d51; display: inline-block; width:70px; height:70px;"
+              class="d-flex align-items-center justify-content-center rounded-4 m-auto">
+              <i class="fa-solid fa-code" style="font-size: 25px; color: white;"></i>
+            </div>
+            <h5 class="mt-4 fw-bold">Custom Software Development</h5>
+            <span><i class="fa-solid fa-arrow-right-long text-green fs-4"></i></span>
+          </div>
+        </div>
+        <div class="border">
+          <div class="my-4 py-2 px-5">
+            <div style="background-color: #657eff; display: inline-block; width:70px; height:70px;"
+              class="d-flex align-items-center justify-content-center rounded-4 m-auto">
+              <i class="fa-solid fa-cloud" style="font-size: 25px; color: white;"></i>
+            </div>
+            <h5 class="mt-4 fw-bold">Cloud Sphere Solutions</h5>
+            <span><i class="fa-solid fa-arrow-right-long text-green fs-4"></i></span>
+          </div>
+        </div>
+        <div class="border">
+          <div class="my-4 py-2 px-4">
+            <div style="background-color: #fb5252; display: inline-block; width:70px; height:70px;"
+              class="d-flex align-items-center justify-content-center rounded-4 m-auto">
+              <i class="fa-regular fa-file-code" style="font-size: 25px; color: white;"></i>
+            </div>
+            <h5 class="mt-4 fw-bold">Mobile Application Development</h5>
+            <span><i class="fa-solid fa-arrow-right-long text-green fs-4"></i></span>
+          </div>
+        </div>
+        <div class="border">
+          <div class="my-4 py-2 px-4">
+            <div style="background-color: #9b57d2; display: inline-block; width:70px; height:70px;"
+              class="d-flex align-items-center justify-content-center rounded-4 m-auto">
+              <i class="fa-solid fa-brain" style="font-size: 25px; color: white;"></i>
+            </div>
+            <h5 class="mt-4 fw-bold">AI & Machine Learning Integration</h5>
+            <span><i class="fa-solid fa-arrow-right-long text-green fs-4"></i></span>
+          </div>
+        </div>
+        <div class="border">
+          <div class="my-4 py-2 px-4">
+            <div style="background-color: #57d288; display: inline-block; width:70px; height:70px;"
+              class="d-flex align-items-center justify-content-center rounded-4 m-auto">
+              <i class="fa-solid fa-headset" style="font-size: 25px; color: white;"></i>
+            </div>
+            <h5 class="mt-4 fw-bold">It Consultancy and Support</h5>
+            <span><i class="fa-solid fa-arrow-right-long text-green fs-4 "></i></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  <script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 
+  <script>
+    $(document).ready(function () {
+      $('.multiple-items').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1
+      });
+    });
   </script>
 </body>
 

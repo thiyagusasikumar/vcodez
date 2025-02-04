@@ -38,7 +38,16 @@
   animation: zoomScroll 2s ease-in-out infinite alternate;
 }
 .img-container:hover .scroll-zoom-img {
-  transform: scale(1); /* Zoom effect when scrolling */
+  transform: scale(1);
+}
+.line {
+  display: inline-block;
+  width: 120px;
+  height: 3px;
+  background-image: linear-gradient(to right, #174481, #21AB49);
+}
+.text-green {
+  color: #20ab4a;
 }
 
 /* Keyframe for Zoom */
