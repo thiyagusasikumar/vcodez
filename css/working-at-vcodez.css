@@ -112,5 +112,25 @@
 }
 .work_image {
   border-bottom-right-radius: 20%;
-  margin-left: 5px;
+  margin-left: -4px;
+}
+.e-fas-check {
+  color: green;
+  font-size: 20px;
+  fill: #21ab49;
+  height: 12px;
+}
+.our_values {
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: "Roboto", serif;
+  margin: 8px 0px 15px 0px;
+}
+.our_values_p {
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.section3 {
+  padding-bottom: 80px;
 }
