@@ -1,0 +1,49 @@
+.sec1 .bg-image {
+  width: 1200px;
+  max-width: 100%;
+  height: 1000px;
+}
+.sec1 h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.sec1 button {
+  background-color: #274587;
+  font-size: 13px;
+}
+.obj-fit-cover {
+  object-fit: cover;
+}
+.img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.absolute-img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  bottom: 0;
+  left: 0;
+}
+.start-25 {
+  left: -60px;
+}
+.scroll-zoom-img {
+  animation: zoomScroll 2s ease-in-out infinite alternate;
+}
+.img-container:hover .scroll-zoom-img {
+  transform: scale(1); /* Zoom effect when scrolling */
+}
+
+/* Keyframe for Zoom */
+@keyframes zoomScroll {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
