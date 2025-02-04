@@ -52,6 +52,33 @@
     right: 150px;
     top: 135%;
     width: 35%; 
+     filter: grayscale(100%);
+   transition: filter 0.5s ease-in-out;
+}
+.Our-Location:hover{
+    filter: grayscale(0%);
 }
 
+.email{
+    position: absolute;
+    left :500px;
+    top: 145%;
+    padding-top:35px ;
+}
 
+.section3{
+    background-color: azure;
+}
+.section3 .heading{
+    position: relative;
+    margin-left: 50%;
+    width: 100%;
+}
+.Message{
+    margin-left: 500px;
+    padding: 100px;
+}
+button{
+    width: 200px;
+   
+}
